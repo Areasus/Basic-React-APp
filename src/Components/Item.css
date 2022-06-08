@@ -1,0 +1,49 @@
+.item
+{
+    /* margin: 3rem 3rem; */
+    border: 2px solid black;
+    border-radius: 10px;
+    min-height: 300px;
+    width: 250px;
+    overflow: hidden;
+}
+
+.item img{
+    width: 100%;
+    object-fit: fill;
+    height: 250px;
+}
+
+.items
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+.card-head
+{
+    padding: 0px 10px ;
+    text-align: center;
+}
+
+.card-head p{
+    font-size: 0.9em;
+}
+
+.card-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.card-container button
+{
+    font-size: 1em;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
